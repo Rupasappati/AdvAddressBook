@@ -23,6 +23,7 @@ values('Rupa','Sappati','Chataparru','Eluru','AP',534004,9398560256,'rupasappati
 ('murali','Chandana','balnagar','hyd','TS',234535,5485478751,'murali.ch@gmail.com'),
 ('Satya','Sappati','Chataparru','Eluru','AP',534004,8978615386,'satya@gmail.com');
 
+
 select * from AddressBook;
 
 --UC-4-Edit-Contact-By-Person's-Name--
@@ -57,5 +58,6 @@ select COUNT(*) as Type, ContactType from AddressBook group by ContactType;
 --UC-11-Add-Person-To-Both-Family-And-Friend--
 insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email,ContactType)
 values('Shankar','Kommna','kochi','Kerala','Kerala',482002,7999254588,'shankar@gmail.com','Family'),
-('pavan','Allu','jalipudi','Eluru','AP',534007,2315648974,'pavansaiallu@gmail.com','Friend');
+('pavan','Allu','jalipudi','Eluru','AP',534007,2315648974,'pavansaiallu@gmail.com','Friend'),
+('charan','challa','Kammam','Kammam','AP',547775,2154564584,'charan@gmail.com','Friend');
 select * from AddressBook;
